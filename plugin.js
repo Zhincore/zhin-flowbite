@@ -457,6 +457,13 @@ module.exports = plugin(
                 boxShadow: {
                     'sm-light': '0 2px 5px 0px rgba(255, 255, 255, 0.08)',
                 },
+                backgroundSize: {
+                    '200%': '200% 200%',
+                },
+                backgroundImage: {
+                    'dbl-gradient-to-br':
+                        'linear-gradient(to bottom right, var(--tw-gradient-stops) 50%, transparent 50%), linear-gradient(to top left, var(--tw-gradient-stops) 50%, transparent 50%);',
+                },
                 colors: {
                     transparent: 'transparent',
                     white: '#ffffff',
